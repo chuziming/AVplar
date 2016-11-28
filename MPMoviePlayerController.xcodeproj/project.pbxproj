@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0738BCC51DE932F500D1B457 /* AVPlayHorizontallyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0738BCC31DE932F500D1B457 /* AVPlayHorizontallyViewController.m */; };
+		0738BCC61DE932F500D1B457 /* AVPlayHorizontallyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0738BCC41DE932F500D1B457 /* AVPlayHorizontallyViewController.xib */; };
+		0738BCC91DE96A0600D1B457 /* AVplayerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0738BCC81DE96A0600D1B457 /* AVplayerNavigationController.m */; };
+		074D6DE71DE7CD5500DC76BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D6DE61DE7CD5500DC76BB /* main.m */; };
+		074D6DEA1DE7CD5500DC76BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D6DE91DE7CD5500DC76BB /* AppDelegate.m */; };
+		074D6DED1DE7CD5500DC76BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D6DEC1DE7CD5500DC76BB /* ViewController.m */; };
+		074D6DF01DE7CD5500DC76BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074D6DEE1DE7CD5500DC76BB /* Main.storyboard */; };
+		074D6DF21DE7CD5500DC76BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074D6DF11DE7CD5500DC76BB /* Assets.xcassets */; };
+		074D6DF51DE7CD5500DC76BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074D6DF31DE7CD5500DC76BB /* LaunchScreen.storyboard */; };
+		074D6E001DE7CD5500DC76BB /* MPMoviePlayerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D6DFF1DE7CD5500DC76BB /* MPMoviePlayerControllerTests.m */; };
+		074D6E0B1DE7CD5500DC76BB /* MPMoviePlayerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D6E0A1DE7CD5500DC76BB /* MPMoviePlayerControllerUITests.m */; };
+		074D6E1B1DE7ED7900DC76BB /* AVPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074D6E191DE7ED7900DC76BB /* AVPlayViewController.m */; };
+		074D6E1C1DE7ED7900DC76BB /* AVPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074D6E1A1DE7ED7900DC76BB /* AVPlayViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074D6DFC1DE7CD5500DC76BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074D6DDA1DE7CD5500DC76BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074D6DE11DE7CD5500DC76BB;
+			remoteInfo = MPMoviePlayerController;
+		};
+		074D6E071DE7CD5500DC76BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074D6DDA1DE7CD5500DC76BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074D6DE11DE7CD5500DC76BB;
+			remoteInfo = MPMoviePlayerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0738BCC21DE932F500D1B457 /* AVPlayHorizontallyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayHorizontallyViewController.h; sourceTree = "<group>"; };
+		0738BCC31DE932F500D1B457 /* AVPlayHorizontallyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayHorizontallyViewController.m; sourceTree = "<group>"; };
+		0738BCC41DE932F500D1B457 /* AVPlayHorizontallyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVPlayHorizontallyViewController.xib; sourceTree = "<group>"; };
+		0738BCC71DE96A0600D1B457 /* AVplayerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVplayerNavigationController.h; sourceTree = "<group>"; };
+		0738BCC81DE96A0600D1B457 /* AVplayerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVplayerNavigationController.m; sourceTree = "<group>"; };
+		074D6DE21DE7CD5500DC76BB /* MPMoviePlayerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPMoviePlayerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074D6DE61DE7CD5500DC76BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		074D6DE81DE7CD5500DC76BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		074D6DE91DE7CD5500DC76BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		074D6DEB1DE7CD5500DC76BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		074D6DEC1DE7CD5500DC76BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		074D6DEF1DE7CD5500DC76BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		074D6DF11DE7CD5500DC76BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		074D6DF41DE7CD5500DC76BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		074D6DF61DE7CD5500DC76BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074D6DFB1DE7CD5500DC76BB /* MPMoviePlayerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPMoviePlayerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074D6DFF1DE7CD5500DC76BB /* MPMoviePlayerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMoviePlayerControllerTests.m; sourceTree = "<group>"; };
+		074D6E011DE7CD5500DC76BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074D6E061DE7CD5500DC76BB /* MPMoviePlayerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPMoviePlayerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074D6E0A1DE7CD5500DC76BB /* MPMoviePlayerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMoviePlayerControllerUITests.m; sourceTree = "<group>"; };
+		074D6E0C1DE7CD5500DC76BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074D6E181DE7ED7900DC76BB /* AVPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayViewController.h; sourceTree = "<group>"; };
+		074D6E191DE7ED7900DC76BB /* AVPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayViewController.m; sourceTree = "<group>"; };
+		074D6E1A1DE7ED7900DC76BB /* AVPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVPlayViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074D6DDF1DE7CD5500DC76BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074D6DF81DE7CD5500DC76BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074D6E031DE7CD5500DC76BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074D6DD91DE7CD5500DC76BB = {
+			isa = PBXGroup;
+			children = (
+				074D6DE41DE7CD5500DC76BB /* MPMoviePlayerController */,
+				074D6DFE1DE7CD5500DC76BB /* MPMoviePlayerControllerTests */,
+				074D6E091DE7CD5500DC76BB /* MPMoviePlayerControllerUITests */,
+				074D6DE31DE7CD5500DC76BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074D6DE31DE7CD5500DC76BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074D6DE21DE7CD5500DC76BB /* MPMoviePlayerController.app */,
+				074D6DFB1DE7CD5500DC76BB /* MPMoviePlayerControllerTests.xctest */,
+				074D6E061DE7CD5500DC76BB /* MPMoviePlayerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074D6DE41DE7CD5500DC76BB /* MPMoviePlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				074D6DE81DE7CD5500DC76BB /* AppDelegate.h */,
+				074D6DE91DE7CD5500DC76BB /* AppDelegate.m */,
+				074D6DEB1DE7CD5500DC76BB /* ViewController.h */,
+				074D6DEC1DE7CD5500DC76BB /* ViewController.m */,
+				074D6E181DE7ED7900DC76BB /* AVPlayViewController.h */,
+				074D6E191DE7ED7900DC76BB /* AVPlayViewController.m */,
+				074D6E1A1DE7ED7900DC76BB /* AVPlayViewController.xib */,
+				0738BCC21DE932F500D1B457 /* AVPlayHorizontallyViewController.h */,
+				0738BCC31DE932F500D1B457 /* AVPlayHorizontallyViewController.m */,
+				0738BCC41DE932F500D1B457 /* AVPlayHorizontallyViewController.xib */,
+				074D6DEE1DE7CD5500DC76BB /* Main.storyboard */,
+				0738BCC71DE96A0600D1B457 /* AVplayerNavigationController.h */,
+				0738BCC81DE96A0600D1B457 /* AVplayerNavigationController.m */,
+				074D6DF11DE7CD5500DC76BB /* Assets.xcassets */,
+				074D6DF31DE7CD5500DC76BB /* LaunchScreen.storyboard */,
+				074D6DF61DE7CD5500DC76BB /* Info.plist */,
+				074D6DE51DE7CD5500DC76BB /* Supporting Files */,
+			);
+			path = MPMoviePlayerController;
+			sourceTree = "<group>";
+		};
+		074D6DE51DE7CD5500DC76BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074D6DE61DE7CD5500DC76BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		074D6DFE1DE7CD5500DC76BB /* MPMoviePlayerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				074D6DFF1DE7CD5500DC76BB /* MPMoviePlayerControllerTests.m */,
+				074D6E011DE7CD5500DC76BB /* Info.plist */,
+			);
+			path = MPMoviePlayerControllerTests;
+			sourceTree = "<group>";
+		};
+		074D6E091DE7CD5500DC76BB /* MPMoviePlayerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				074D6E0A1DE7CD5500DC76BB /* MPMoviePlayerControllerUITests.m */,
+				074D6E0C1DE7CD5500DC76BB /* Info.plist */,
+			);
+			path = MPMoviePlayerControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074D6DE11DE7CD5500DC76BB /* MPMoviePlayerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074D6E0F1DE7CD5500DC76BB /* Build configuration list for PBXNativeTarget "MPMoviePlayerController" */;
+			buildPhases = (
+				074D6DDE1DE7CD5500DC76BB /* Sources */,
+				074D6DDF1DE7CD5500DC76BB /* Frameworks */,
+				074D6DE01DE7CD5500DC76BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPMoviePlayerController;
+			productName = MPMoviePlayerController;
+			productReference = 074D6DE21DE7CD5500DC76BB /* MPMoviePlayerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		074D6DFA1DE7CD5500DC76BB /* MPMoviePlayerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074D6E121DE7CD5500DC76BB /* Build configuration list for PBXNativeTarget "MPMoviePlayerControllerTests" */;
+			buildPhases = (
+				074D6DF71DE7CD5500DC76BB /* Sources */,
+				074D6DF81DE7CD5500DC76BB /* Frameworks */,
+				074D6DF91DE7CD5500DC76BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074D6DFD1DE7CD5500DC76BB /* PBXTargetDependency */,
+			);
+			name = MPMoviePlayerControllerTests;
+			productName = MPMoviePlayerControllerTests;
+			productReference = 074D6DFB1DE7CD5500DC76BB /* MPMoviePlayerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		074D6E051DE7CD5500DC76BB /* MPMoviePlayerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074D6E151DE7CD5500DC76BB /* Build configuration list for PBXNativeTarget "MPMoviePlayerControllerUITests" */;
+			buildPhases = (
+				074D6E021DE7CD5500DC76BB /* Sources */,
+				074D6E031DE7CD5500DC76BB /* Frameworks */,
+				074D6E041DE7CD5500DC76BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074D6E081DE7CD5500DC76BB /* PBXTargetDependency */,
+			);
+			name = MPMoviePlayerControllerUITests;
+			productName = MPMoviePlayerControllerUITests;
+			productReference = 074D6E061DE7CD5500DC76BB /* MPMoviePlayerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074D6DDA1DE7CD5500DC76BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = chuziming;
+				TargetAttributes = {
+					074D6DE11DE7CD5500DC76BB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					074D6DFA1DE7CD5500DC76BB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 074D6DE11DE7CD5500DC76BB;
+					};
+					074D6E051DE7CD5500DC76BB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 074D6DE11DE7CD5500DC76BB;
+					};
+				};
+			};
+			buildConfigurationList = 074D6DDD1DE7CD5500DC76BB /* Build configuration list for PBXProject "MPMoviePlayerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 074D6DD91DE7CD5500DC76BB;
+			productRefGroup = 074D6DE31DE7CD5500DC76BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074D6DE11DE7CD5500DC76BB /* MPMoviePlayerController */,
+				074D6DFA1DE7CD5500DC76BB /* MPMoviePlayerControllerTests */,
+				074D6E051DE7CD5500DC76BB /* MPMoviePlayerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074D6DE01DE7CD5500DC76BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0738BCC61DE932F500D1B457 /* AVPlayHorizontallyViewController.xib in Resources */,
+				074D6DF51DE7CD5500DC76BB /* LaunchScreen.storyboard in Resources */,
+				074D6E1C1DE7ED7900DC76BB /* AVPlayViewController.xib in Resources */,
+				074D6DF21DE7CD5500DC76BB /* Assets.xcassets in Resources */,
+				074D6DF01DE7CD5500DC76BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074D6DF91DE7CD5500DC76BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074D6E041DE7CD5500DC76BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074D6DDE1DE7CD5500DC76BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074D6DED1DE7CD5500DC76BB /* ViewController.m in Sources */,
+				074D6E1B1DE7ED7900DC76BB /* AVPlayViewController.m in Sources */,
+				0738BCC51DE932F500D1B457 /* AVPlayHorizontallyViewController.m in Sources */,
+				0738BCC91DE96A0600D1B457 /* AVplayerNavigationController.m in Sources */,
+				074D6DEA1DE7CD5500DC76BB /* AppDelegate.m in Sources */,
+				074D6DE71DE7CD5500DC76BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074D6DF71DE7CD5500DC76BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074D6E001DE7CD5500DC76BB /* MPMoviePlayerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074D6E021DE7CD5500DC76BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074D6E0B1DE7CD5500DC76BB /* MPMoviePlayerControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074D6DFD1DE7CD5500DC76BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074D6DE11DE7CD5500DC76BB /* MPMoviePlayerController */;
+			targetProxy = 074D6DFC1DE7CD5500DC76BB /* PBXContainerItemProxy */;
+		};
+		074D6E081DE7CD5500DC76BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074D6DE11DE7CD5500DC76BB /* MPMoviePlayerController */;
+			targetProxy = 074D6E071DE7CD5500DC76BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		074D6DEE1DE7CD5500DC76BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074D6DEF1DE7CD5500DC76BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		074D6DF31DE7CD5500DC76BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074D6DF41DE7CD5500DC76BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074D6E0D1DE7CD5500DC76BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		074D6E0E1DE7CD5500DC76BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074D6E101DE7CD5500DC76BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MPMoviePlayerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chuziming.MPMoviePlayerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		074D6E111DE7CD5500DC76BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MPMoviePlayerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chuziming.MPMoviePlayerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		074D6E131DE7CD5500DC76BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MPMoviePlayerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chuziming.MPMoviePlayerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPMoviePlayerController.app/MPMoviePlayerController";
+			};
+			name = Debug;
+		};
+		074D6E141DE7CD5500DC76BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MPMoviePlayerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chuziming.MPMoviePlayerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPMoviePlayerController.app/MPMoviePlayerController";
+			};
+			name = Release;
+		};
+		074D6E161DE7CD5500DC76BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MPMoviePlayerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chuziming.MPMoviePlayerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MPMoviePlayerController;
+			};
+			name = Debug;
+		};
+		074D6E171DE7CD5500DC76BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MPMoviePlayerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chuziming.MPMoviePlayerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MPMoviePlayerController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074D6DDD1DE7CD5500DC76BB /* Build configuration list for PBXProject "MPMoviePlayerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074D6E0D1DE7CD5500DC76BB /* Debug */,
+				074D6E0E1DE7CD5500DC76BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074D6E0F1DE7CD5500DC76BB /* Build configuration list for PBXNativeTarget "MPMoviePlayerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074D6E101DE7CD5500DC76BB /* Debug */,
+				074D6E111DE7CD5500DC76BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074D6E121DE7CD5500DC76BB /* Build configuration list for PBXNativeTarget "MPMoviePlayerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074D6E131DE7CD5500DC76BB /* Debug */,
+				074D6E141DE7CD5500DC76BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074D6E151DE7CD5500DC76BB /* Build configuration list for PBXNativeTarget "MPMoviePlayerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074D6E161DE7CD5500DC76BB /* Debug */,
+				074D6E171DE7CD5500DC76BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 074D6DDA1DE7CD5500DC76BB /* Project object */;
+}
